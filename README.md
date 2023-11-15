@@ -60,3 +60,8 @@ a list of tokens, ...*
 * The task list does not need to be *persistent* - it's OK if the task
   manager always starts empty
 * Make a commit and push it at the end of each TDD cycle.
+
+# Going further
+
+* Implement undo - there is a famous design pattern that can help
+* Implement storing tasks in a db (for instance using `sqlite`, or a big `json` file)
