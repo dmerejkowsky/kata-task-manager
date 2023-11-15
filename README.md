@@ -42,6 +42,8 @@ Bye!
 * Follow the TDD rules as close as possible to implement the
   above specifications.
 
+* Make a commit and push it at the end of each TDD cycle.
+
 * *Note*: you can assume the user only enters *valid inputs*.
 
 * Use an iterative process - going through the following steps, in order:
@@ -63,12 +65,3 @@ a list of tokens, ...*
 
 * The task list does not need to be *persistent* - it's OK if the task
   manager always starts empty
-
-# Going further
-
-* Implement undo - there is a famous design pattern that can help
-* Implement storing tasks in a db (for instance using `sqlite`, or a big `json` file)
-* Expose the functionnality of the task manager as a web API in addition to the command line
-* Allow to use a key-value store in addition to the sql backend
-* You should end up with properly separated modules - the web and db modules should only depend
-  on the core module, and not the other way around.
