@@ -42,10 +42,6 @@ Bye!
 * Follow the TDD rules as close as possible to implement the
   above specifications.
 
-* Make a commit and push it at the end of each TDD cycle.
-
-* *Note*: you can assume the user only enters *valid inputs*.
-
 * Use an iterative process - going through the following steps, in order:
 
 1.  Parse user input (+, -, x, o, q)
@@ -58,10 +54,9 @@ a list of tokens, ...*
 3.  Display the tasks
 4.  Run the interaction loop
 
-* Feel free to use source control and make a commit at the
-  end of each refactor phase.
-
 # Notes
 
+* You can assume the user only enters *valid inputs*.
 * The task list does not need to be *persistent* - it's OK if the task
   manager always starts empty
+* Make a commit and push it at the end of each TDD cycle.
